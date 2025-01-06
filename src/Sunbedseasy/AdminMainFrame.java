@@ -10,10 +10,7 @@ import java.sql.SQLException;
 public class AdminMainFrame extends JFrame {
     
 	private static final long serialVersionUID = 1L;
-	private int adminId;
-
-    public AdminMainFrame(int adminId) {
-        this.adminId = adminId;
+	public AdminMainFrame(int adminId) {
         setTitle("Admin Panel");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
