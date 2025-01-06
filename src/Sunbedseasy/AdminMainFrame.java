@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class AdminMainFrame extends JFrame {
-    //d 
+    
 	private static final long serialVersionUID = 1L;
 	public AdminMainFrame(int adminId) {
         setTitle("Admin Panel");
